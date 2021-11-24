@@ -1,0 +1,71 @@
+azure storage services
+=================
+1.what is azure storage a/c?
+ Blob storage is optimized for storing massive amounts of unstructured data, such as text or binary data.
+
+2.how many types of storage services?
+four types
+1.Blob
+2.Table
+3.file
+4.Queue
+
+3.what is blob and types?
+Azure Blob storage is a feature of Microsoft Azure. It allows users to store large amounts of unstructured data on Microsoft's data storage platform. In this case, Blob stands for Binary Large Object.
+
+4.what is container?
+Containers. A container organizes a set of blobs, similar to a directory in a file system. A storage account can include an unlimited number of containers, and a container can store an unlimited number of blobs
+
+5.how to hosting static website?
+
+6.how many wasy to deloy blob storage?
+->az portal?
+-> az cli?
+-> powershell?
+-> ARM (AZ RESOURCE MANAGER)?
+
+7.How to accessing the static website?
+
+8. how to enable versioning?
+
+9. how to restore the blobs?
+
+10.blob storage resources ?
+storage ac->container->blob
+
+11. what is life cycle
+
+12.how many types of tyres?
+1.hot-> freequenctly
+2.cool-> infreequenctly
+3.Arcyving -> Rarely
+
+13.type of blob storages?
+->Block blobs 
+store text and binary data. Block blobs are made up of blocks of data that can be managed individually. ...
+->Append blobs
+ are made up of blocks like block blobs, but are optimized for append operations. ...
+->Page blobs 
+store random access files up to 8 TiB in size.
+
+14.Why blob is used?
+The term "blob" actually stands for "Binary Large Object" and is used for storing information in databases. A blob is a data type that can store binary data. ... Because blobs are used to store objects such as images, audio files, and video clips, they often require significantly more space than other data type
+
+15.what is file strage?
+Azure Files is a shared storage service that lets you access files via the Server  protocol, and mount file shares on Windows, Linux or Mac machines in the Azure cloud.
+
+16.how to share the files to multiple vm ?
+using mount point
+
+17.what is Table stoarge?
+Azure Table storage is a service that stores non-relational structured data (also known as structured NoSQL data) in the cloud, providing a key/attribute store with a schemaless design. Because Table storage is schemaless,
+
+18.what is queue ?
+Azure Queue Storage is a service for storing large numbers of messages. ... A queue message can be up to 64 KB in size.
+
+19.What is storage cost in Azure?
+Azure File storage: $0.06 per GB per month for locally-redundant storage, though prices increase for more dispersed redundancy options.
+
+
+
+
